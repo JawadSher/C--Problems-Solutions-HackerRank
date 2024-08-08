@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/github/license/JawadSher/CPlusPlus-Problems-Solutions-HackerRank?style=flat&logo=opensource" alt="License">
     <img src="https://img.shields.io/github/stars/JawadSher/CPlusPlus-Problems-Solutions-HackerRank?style=flat&logo=github" alt="Stars">
     <img src="https://img.shields.io/github/forks/JawadSher/CPlusPlus-Problems-Solutions-HackerRank?style=flat&logo=github" alt="Forks">
-    <img src="https://img.shields.io/badge/Last%20Update-July%20%272024-blue?style=flat&logo=calendar" alt="Last Update">
+    <img src="https://img.shields.io/badge/update-daily-blue?style=flat&logo=calendar" alt="Last Update">
     <img src="https://img.shields.io/github/issues/JawadSher/CPlusPlus-Problems-Solutions-HackerRank?style=flat&logo=github" alt="Issues">
 </div>
 
