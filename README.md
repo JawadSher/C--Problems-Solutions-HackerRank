@@ -34,8 +34,9 @@ HackerRank is a competitive programming platform that allows developers to pract
 ## Repository Content
 This repository includes solutions to various C++ problems from HackerRank, organized by topic:
 
-| No | Problem name | Description | Hackerrank |
-|----|--------------|-------------|------------|
+| No | Problem name | Description |
+|----|--------------|-------------|
+| 01 | [Introductory Problems](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/01%20-%20Introductory%20Problems)|Basic C++ problems for beginners to practice fundamental concepts and syntax.|
 
 Each solution is provided with a clear explanation to help you understand the problem and the approach to solve it.
 
