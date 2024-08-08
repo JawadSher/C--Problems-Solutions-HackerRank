@@ -3,7 +3,7 @@
 <p align='center'>Welcome to the <b>Introductory Problems</b> repository! This collection is designed to help beginners get started with fundamental programming concepts and problem-solving skills. Each problem in this repository is selected to enhance your understanding of basic programming constructs and techniques. </p>
 
 ## Repository Content
-<p> <img src="https://img.shields.io/badge/Total%20Problems-2-blue" alt="Total Problems" /> </p>
+<p> <img src="https://img.shields.io/badge/Total%20Problems-3-blue" alt="Total Problems" /> </p>
 
 | No | Problem Name | Description | Hackerrank |
 |----|--------------|-------------|------------|
