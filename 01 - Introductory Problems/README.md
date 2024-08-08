@@ -8,7 +8,8 @@
 | No | Problem Name | Description | Hackerrank |
 |----|--------------|-------------|------------|
 | 01  | [Say Hello World with C++](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/01%20-%20Introductory%20Problems/01%20-%20Say%20Hello%20World%20with%20C%2B%2B)    |Printing "Hello, World!" using C++ print statement. | [Link](https://www.hackerrank.com/challenges/cpp-hello-world/problem?isFullScreen=true) |
-| 02 | [Input and Output](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/01%20-%20Introductory%20Problems/02%20-%20Input%20and%20Output) | Basic input and output operations using cin and cout statements of c++. | [Link](https://www.hackerrank.com/challenges/cpp-input-and-output/problem?isFullScreen=true)
+| 02 | [Input and Output](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/01%20-%20Introductory%20Problems/02%20-%20Input%20and%20Output) | Basic input and output operations using cin and cout statements of c++. | [Link](https://www.hackerrank.com/challenges/cpp-input-and-output/problem?isFullScreen=true) |
+| 03 | [Basic Data Types](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/01%20-%20Introductory%20Problems/03%20-%20Basic%20Data%20Types)|Practice and formatting basic data types including int, long, char, float, and double.|[Link](https://www.hackerrank.com/challenges/c-tutorial-basic-data-types/problem?isFullScreen=true)|
 
 
 
