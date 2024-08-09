@@ -1,6 +1,9 @@
 <h1 align='center'>For - Loop</h1>
 
 ## Problem Statement
+
+**Problem URL :** [For Loop](https://www.hackerrank.com/challenges/c-tutorial-for-loop?isFullScreen=true)
+
 ![image](https://github.com/user-attachments/assets/5f63bf7e-92bb-4a70-b671-ebe65c2f5b62)
 ![image](https://github.com/user-attachments/assets/555560f8-04a4-4551-b369-63f2b1efd6fb)
 
