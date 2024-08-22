@@ -1,4 +1,4 @@
-<h1 align='center'>Exceptional Server</h1>
+<h1 align='center'>Exceptional - Server</h1>
 
 ## Problem Statement
 
