@@ -32,11 +32,13 @@ HackerRank is a competitive programming platform that allows developers to pract
 <p align='center'><img src='https://cdn.dribbble.com/users/1771471/screenshots/14108349/media/0d446f06dbc6f204fdcb138902df65c9.gif'></p>
 
 ## Repository Content
-This repository includes solutions to various C++ problems from HackerRank, organized by topic:
 
 | No | Problems Category | Description |
-|----|--------------|-------------|
-| 01 | [Introductory Problems](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/01%20-%20Introductory%20Problems)|Basic C++ problems for beginners to practice fundamental concepts and syntax.|
+|----|-------------------|-------------|
+| 01 | [Introductory Problems](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/01%20-%20Introductory%20Problems) | Basic C++ problems for beginners to practice fundamental concepts and syntax. |
+| 02 | [Strings Problems](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/02%20-%20Strings%20Problems) | Problems focusing on string manipulation, including operations like parsing, formatting, and searching. |
+| 03 | [Classes Problems](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/03%20-%20Classes%20Problems) | Challenges related to classes and objects, including inheritance, polymorphism, and encapsulation. |
+
 
 Each solution is provided with a clear explanation to help you understand the problem and the approach to solve it.
 
