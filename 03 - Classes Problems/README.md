@@ -5,7 +5,7 @@
 
 ## Repository Content
 
-![Problem Count](https://img.shields.io/badge/problem%20count-8-blue)
+![Problem Count](https://img.shields.io/badge/problems%20count-8-blue)
 
 
 | No. | Problem Name | Description | HackerRank |
