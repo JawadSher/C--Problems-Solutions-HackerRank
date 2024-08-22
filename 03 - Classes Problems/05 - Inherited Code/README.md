@@ -1,4 +1,4 @@
-<h1 align='center'>Inherited Code</h1>
+<h1 align='center'>Inherited - Code</h1>
 
 ## Problem Statement
 
