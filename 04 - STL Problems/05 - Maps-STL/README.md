@@ -56,104 +56,148 @@ int main() {
 
 ## Problem Solution Explanation
 
+Let's go through the code step by step, explaining each part in detail:
+
 ```cpp
 #include <iostream>
 #include <map>
 #include <algorithm>
 #include <sstream>
 using namespace std;
+```
 
+### Header Files:
+- `#include <iostream>`: This header file is for input and output operations in C++ (e.g., `cin`, `cout`).
+- `#include <map>`: This includes the `map` container from the C++ Standard Library, which allows you to store key-value pairs.
+- `#include <algorithm>`: This header is included for standard algorithms, but it's not actually used in the code.
+- `#include <sstream>`: This includes string stream functionality for manipulating strings, but it's not actually used in the code.
+
+### The `main()` Function:
+
+```cpp
 int main() {
     int Q;
     cin >> Q;
 ```
 
-**Header Files:**
-
-- `iostream`: Provides input and output stream functionality.
-- `map`: Defines the `map` container for storing key-value pairs.
-- `algorithm`: Offers generic algorithms for various data structures (not used in this code).
-- `sstream`: Provides string stream classes for converting strings to other data types (not used in this code).
-
-**Main Function:**
-
-- `Q`: Stores the number of queries to be processed.
+- **`int Q;`**: Declares an integer `Q` which will store the number of queries.
+- **`cin >> Q;`**: Reads the value of `Q` from standard input, representing the number of operations (or queries) that will be performed.
 
 ```cpp
-map<string, int> Student_info;
-cin.ignore();
+    map<string, int> Student_info;
+    cin.ignore();
 ```
 
-- `Student_info`: A `map` to store student names and their corresponding total marks.
-- `cin.ignore()`: Discards any newline character in the input stream.
+- **`map<string, int> Student_info;`**: This creates a map called `Student_info` where the keys are `string` (student names) and the values are `int` (student marks).
+- **`cin.ignore();`**: This ignores the newline character left in the input buffer after reading `Q` to ensure that the subsequent input operations are correctly read.
 
 ```cpp
-for(int i = 0; i < Q; i++){
-    int query_type;
-    string stdnt_name;
-    int stdnt_marks;
-    
-    cin >> query_type;
+    for(int i = 0; i < Q; i++){
+        int query_type;
+        string stdnt_name;
+        int stdnt_marks;
+        
+        cin >> query_type;
 ```
 
-- Iterates `Q` times to process each query.
-- `query_type`: Stores the type of query (1, 2, or 3).
-- `stdnt_name`: Stores the student's name.
-- `stdnt_marks`: Stores the student's marks.
+- **`for(int i = 0; i < Q; i++)`**: This loop will iterate `Q` times, handling each query.
+- **`int query_type;`**: Declares an integer `query_type` to store the type of query (1, 2, or 3).
+- **`string stdnt_name; int stdnt_marks;`**: Declares variables to hold the student's name (`stdnt_name`) and marks (`stdnt_marks`).
+- **`cin >> query_type;`**: Reads the `query_type` which dictates what operation to perform.
+
+### Handling Each Query:
+
+#### Query Type 1: Add Marks to a Student
 
 ```cpp
-if(query_type == 1){
-    cin >> stdnt_name >> stdnt_marks;
-    Student_info[stdnt_name] += stdnt_marks;
+        if(query_type == 1){
+            cin >> stdnt_name >> stdnt_marks;
+            Student_info[stdnt_name] += stdnt_marks;
+        }
+```
+
+- **`cin >> stdnt_name >> stdnt_marks;`**: Reads the student’s name and the marks to be added.
+- **`Student_info[stdnt_name] += stdnt_marks;`**: 
+  - `Student_info[stdnt_name]` accesses the current marks of the student in the map. 
+  - `+= stdnt_marks` adds the given marks to the existing value. If the student is not already in the map, a new entry is created with the initial marks.
+
+Example:
+- **Input**: `1 John 30`
+- **Action**: Adds 30 marks to "John". If "John" had no previous entry, it initializes "John" with 30 marks.
+
+#### Query Type 2: Erase a Student’s Record
+
+```cpp
+        else if(query_type == 2){
+            cin >> stdnt_name;
+            Student_info.erase(stdnt_name);
+        }
+```
+
+- **`cin >> stdnt_name;`**: Reads the student's name.
+- **`Student_info.erase(stdnt_name);`**: Removes the entry for `stdnt_name` from the map.
+
+Example:
+- **Input**: `2 John`
+- **Action**: Removes "John" from the map entirely.
+
+#### Query Type 3: Print a Student’s Marks
+
+```cpp
+        else if(query_type == 3){
+            cin >> stdnt_name;
+            if(Student_info.find(stdnt_name) != Student_info.end()){
+                cout<< Student_info[stdnt_name] <<endl;
+            }else{
+                cout<< 0 << endl;
+            }
+        }
+```
+
+- **`cin >> stdnt_name;`**: Reads the student’s name.
+- **`Student_info.find(stdnt_name) != Student_info.end()`**: 
+  - Checks if `stdnt_name` exists in the map.
+  - `Student_info.find(stdnt_name)` returns an iterator to the element if found; otherwise, it returns `Student_info.end()`.
+- **`cout << Student_info[stdnt_name] << endl;`**: If the student exists, print their marks.
+- **`else { cout << 0 << endl; }`**: If the student doesn’t exist, print `0`.
+
+Example:
+- **Input**: `3 John`
+- **Output**: Prints the marks of "John" if he exists, or `0` if he doesn’t.
+
+### End of `main()` Function
+
+```cpp
+    return 0;
 }
 ```
 
-- **Query 1: Add marks to a student**
-  - Reads the student's name and marks.
-  - Updates the student's total marks in the `Student_info` map.
+- **`return 0;`**: Ends the `main` function and returns `0`, indicating successful execution.
 
-  **Example:**
-  - Input: `1 Alice 85`
-  - Adds 85 marks to Alice's total.
+### Example Run:
 
-```cpp
-else if(query_type == 2){
-    cin >> stdnt_name;
-    Student_info.erase(stdnt_name);
-}
+Consider the following sequence of inputs:
+
+```
+5
+1 John 30
+1 Mary 20
+3 John
+2 Mary
+3 Mary
 ```
 
-- **Query 2: Remove a student**
-  - Reads the student's name.
-  - Removes the student's entry from the `Student_info` map.
+- **Query 1**: Adds 30 marks to "John".
+- **Query 2**: Adds 20 marks to "Mary".
+- **Query 3**: Checks marks of "John" and prints `30`.
+- **Query 4**: Erases "Mary".
+- **Query 5**: Checks marks of "Mary" and prints `0` because "Mary" has been erased.
 
-  **Example:**
-  - Input: `2 Bob`
-  - Removes Bob's record.
+### Expected Output:
 
-```cpp
-else if(query_type == 3){
-    cin >> stdnt_name;
-    if(Student_info.find(stdnt_name) != Student_info.end()){
-        cout << Student_info[stdnt_name] << endl;
-    } else {
-        cout << 0 << endl;
-    }
-}
+```
+30
+0
 ```
 
-- **Query 3: Get a student's total marks**
-  - Reads the student's name.
-  - Prints the student's total marks if they exist.
-  - Prints 0 if the student is not found.
-
-  **Example:**
-  - Input: `3 Carol`
-  - If Carol's total marks are 150, the output will be: `150`.
-  - If Carol is not found, the output will be: `0`.
-
-```cpp
-return 0;
-```
-
-- Returns 0 to indicate successful execution.
+This output matches what you'd expect from the provided sequence of operations.
