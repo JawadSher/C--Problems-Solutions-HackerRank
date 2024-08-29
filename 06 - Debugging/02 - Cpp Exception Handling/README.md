@@ -12,7 +12,7 @@
 In the "Cpp Exception Handling" problem on HackerRank, you are typically required to demonstrate how to use exception handling in C++ to deal with potential errors during program execution. The goal is to handle specific exceptions gracefully and ensure that the program provides meaningful error messages when something goes wrong. 
 
 ## Problem Solution
-```py
+```cpp
 #include <iostream>
 #include <stdexcept>
 
