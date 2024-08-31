@@ -3,6 +3,10 @@
 <p align='center'>Welcome to the Debugging Problems repository! This repository is dedicated to C++ debugging problems sourced from HackerRank. Whether you are new to debugging or looking to sharpen your skills, this collection of problems will help you understand and tackle common issues in C++ code.</p> 
 <p align='center'>Inside, you will find a variety of debugging challenges with solutions and explanations, aimed at improving your problem-solving and debugging skills.</p>
 
+
+## Repository Content
+![Problems Count](https://img.shields.io/badge/problems%20count-4-blue)
+
 | No. | Problem Name                   | Description                                         | HackerRank                                      |
 |-----|--------------------------------|-----------------------------------------------------|-------------------------------------------------|
 | 01  | [Hotel Prices](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/06%20-%20Debugging/01%20-%20Hotel%20Prices)                   | Debug a program to calculate hotel prices correctly. | [Link](https://www.hackerrank.com/challenges/hotel-prices/problem) |
