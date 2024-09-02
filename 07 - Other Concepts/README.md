@@ -1,4 +1,4 @@
-<h1 align='center'>Other  Concepts</h1>
+<h1 align='center'>OTHER - CONCEPTS</h1>
 
 <p align='center'>This repository contains solutions to problems from the "Other Concepts" section of HackerRank's C++ challenges. Each problem is organized into its own subfolder, with a corresponding `README.md` file providing details about the solution.</p>
 
