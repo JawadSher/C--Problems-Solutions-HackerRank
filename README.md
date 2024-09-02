@@ -4,7 +4,7 @@
 </h1>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/Total%20Problems%20Solved-32%20/%2044-blue?style=flat&logo=cplusplus&logoColor=white" alt="Total Problems Solved">
+    <img src="https://img.shields.io/badge/Total%20Problems%20Solved-44%20/%2044-blue?style=flat&logo=cplusplus&logoColor=white" alt="Total Problems Solved">
     <img src="https://img.shields.io/github/contributors/JawadSher/CPlusPlus-Problems-Solutions-HackerRank?style=flat&logo=github" alt="Contributors">
     <img src="https://img.shields.io/github/repo-size/JawadSher/CPlusPlus-Problems-Solutions-HackerRank?style=flat&logo=github" alt="Repo Size">
     <img src="https://img.shields.io/github/license/JawadSher/CPlusPlus-Problems-Solutions-HackerRank?style=flat&logo=opensource" alt="License">
@@ -40,6 +40,8 @@ HackerRank is a competitive programming platform that allows developers to pract
 | 03 | [Classes Problems](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/03%20-%20Classes%20Problems) | Challenges related to classes and objects, including inheritance, polymorphism, and encapsulation. |
 | 04 | [STL Problems](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/04%20-%20STL%20Problems) | Solutions and exercises for C++ Standard Template Library (STL) concepts and containers. | 
 | 05 | [Inheritance Problems](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/05%20-%20Inheritance%20Problems) | C++ inheritance problems and solutions, covering single and multiple inheritance.|
+| 06 | [Debugging](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/06%20-%20Debugging) |Debug code to fix logical errors and unexpected behaviors. |
+| 07 | [Other Concepts](https://github.com/JawadSher/CPlusPlus-Problems-Solutions-HackerRank/tree/main/07%20-%20Other%20Concepts) |Miscellaneous C++ concepts like templates and variadics. |
 
 
 Each solution is provided with a clear explanation to help you understand the problem and the approach to solve it.
